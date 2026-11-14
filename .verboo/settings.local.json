@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v verboo claude)",
+      "Bash(/bin/ls -la /usr/local/bin)",
+      "Bash(npm root:*)",
+      "Bash(/bin/ls '$\\(npm root -g 2>/dev/null\\)')",
+      "Read(//home/artur/.nvm/versions/node/v26.13.1/lib/node_modules/@verboo/code/**)",
+      "Bash(grep -o '.\\\\{200\\\\}join\\([a-zA-Z_$.]*, *\"\"\"\"agents\"\"\"\"\\).\\\\{100\\\\}' dist/cli.mjs)",
+      "Bash(curl -sL https://prospett.com/logo.png -o prospett-logo.png)",
+      "Bash(curl -sL https://prospett.com/privacidade.html -o prospett-privacidade.html)"
+    ]
+  }
+}
