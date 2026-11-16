@@ -37,7 +37,7 @@
     if (form.elements.fax.value) return;
     const data = new FormData(form);
     const lines = [
-      'Olá, Prospett! Quero conversar sobre growth B2B para minha empresa de climatização.',
+      'Olá, Prospett! Quero conversar sobre marketing e crescimento para minha empresa.',
       '',
       `Nome: ${data.get('name')}`,
       `Empresa: ${data.get('company')}`,
